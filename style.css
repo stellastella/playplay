@@ -1,0 +1,84 @@
+#body{/*background-color: aqua;*/
+      position: absolute; width:20em;
+    height:15em;
+    left:50%;
+    top:50%;
+    margin-top:-4em;
+    margin-left:-10em;
+    text-align:center;
+    font-family:Mars Police;
+    color:white;
+    text-transform: uppercase;
+    border:1em;
+}
+#signup_body{/*background-color: aqua;*/
+    position: absolute;
+    width:25em;
+    height:25em;
+    left:50%;
+    top:50%;
+    margin-top:-8em;
+    margin-left:-12em;
+    text-align:center;
+    font-family:Mars Police;
+    color:white;
+    text-transform: uppercase;
+}
+
+a:active, a:hover {
+    text-decoration: underline;
+}
+a{text-decoration: no-underline; }
+
+a{font-family:Mars Police ; font-style: oblique; color:yellow; }
+
+html{
+    margin: 0; background-image:url(bg_image/dark_tint.png), url(bg_image/bokeh_car_lights_bg.jpg);
+}
+
+#form input{
+    width:100%;
+    height:3em;
+
+    padding-top:0.2em;
+    font-family:"impact";
+    text-align:center;
+    font-style: oblique;
+}
+
+#form input[type="submit"]{
+    background:coral;
+    color:whitesmoke;
+    border: none;
+
+}
+#register{
+    color:cyan;
+    background-color: coral;
+    font-family: "oswald";
+    width:100%;
+    height:2em;
+    padding-top:0.2em;
+    font-style: oblique;
+}
+
+#signup_body{
+
+
+}
+
+#signup_body input[type="submit"]{
+    background:coral;
+    color:whitesmoke;
+    border: none;
+}
+
+#signup_body input {
+    width: 100%;
+    height: 3em;
+
+    padding-top: 0.2em;
+    font-family: "impact";
+    text-align: center;
+    font-style: oblique;
+}
